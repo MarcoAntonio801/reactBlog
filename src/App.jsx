@@ -11,6 +11,8 @@ function App() {
       <div>
         <header> 
           <h1>Blog<span>DV</span></h1>
+
+          <nav> </nav>
         </header>
        
       </div>

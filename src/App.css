@@ -4,12 +4,53 @@
   padding: 2rem;
   text-align: center;
   font-family: system-ui;
-  color:#276E90;
-  font-size: 2.2em;
   line-height: 1.1;
   
+  color: white;
 }
 
+h1{
+  color: #efefef;
+}
+h1 span{
+  color: #114358;
+}
+.contenedor{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: xx-large;
+}
+.card{
+  height: 400px;
+  background-color: #efefef;
+  color: rgb(0, 0, 0);
+  width: 400px;
+  border-radius: 10%;
+  margin-top: 20%;
+  display: grid;
+  justify-content: space-around;
+}
+h2{
+  padding-top: 10%;
+  font-size: 55px;
+}
+.card p{
+  padding: 20px;
+}
+@media (width <= 900px) {
+    .contenedor{
+      display: grid;
+    }
+    .card{
+      max-width: 350px;
+      margin-right: 10px;
+    }
+}
+
+
+footer{
+  margin-top: 5%;
+}
 
 
 

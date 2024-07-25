@@ -1,0 +1,42 @@
+.contactoFooter a{
+    color: yellow;
+    text-shadow: 0px 0px 20px rgba(255, 255, 0, 0.842) ;
+    padding-left: 700px;
+    margin-right: -50%;
+    font-size: x-large;
+    font-weight: 600;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.copy{
+    width: 100%;
+}
+
+@media (width <= 1500px) {
+    .contactoFooter a{
+        padding-left: 400px;
+        margin-right: -30%;
+
+    }
+
+}
+@media (width <= 1000px) {
+    .contactoFooter a{
+        padding-left: 50px;
+        margin-right: -10%;
+
+    }
+
+}
+
+@media (width <= 500px) {
+    .contactoFooter a{
+        padding-left: 10px;
+        margin-right: -5%;
+    }
+}

@@ -1,27 +1,21 @@
 import './App.css'
 import Footer from './Components/Footer/Footer'
+import Header from './Components/Header/Header'
 import AppRouter from './router/AppRouter'
-
+import { useLocation } from 'react-router-dom';
 
 function App() {
+  const location = useLocation();
+  const shouldShowHeader = !["/inicio", "/Descripcion"].includes(location.pathname);
+
   return (
     <>
-    <AppRouter></AppRouter>
-        <div className='contenedor'>
-          <header>
-            <h1>Blog<span>DV</span></h1>
-          </header>
-          <main>
-            <div className='card'>
-              <h2> Descripción</h2>
-              <p>¡Hola!  bienvenido a mi blog sobre programación</p>
-            </div>
-          </main>
-        </div>
-
-        <footer>
-          <Footer/>
-        </footer>
+     {shouldShowHeader && <Header/>}
+      <AppRouter/>
+        
+      <footer>
+        <Footer/>
+      </footer>
         
     </>
     

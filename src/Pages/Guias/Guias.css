@@ -1,0 +1,31 @@
+.cardguias {
+    background-color: #a7a7a7;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(90% - 16px); /* Para que cada tarjeta ocupe un tercio del contenedor */
+    box-sizing: border-box;
+    
+  }
+  
+  .cardguias h2 {
+    margin: 0 0 8px;
+    font-size: 1.25rem;
+  }
+  
+  .pguia {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .guia-container {
+    display: flex;
+
+    justify-content: space-between; /* Espacio entre las tarjetas */
+    
+
+  }

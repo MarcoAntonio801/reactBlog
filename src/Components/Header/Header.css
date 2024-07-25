@@ -1,0 +1,43 @@
+.header{
+    display: grid;
+    font-size: xx-large;
+    justify-content: center;
+    
+}
+
+.tituloHead{
+    color: #efefef;
+    margin-top: 5%;
+}
+
+.DV{
+    color: #114358;
+    font-size: 75px;
+}
+
+.ulLink{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+
+.ulLink a{
+    text-decoration: none;
+    margin-right: 70px;
+    color: #6E12CB;
+    text-shadow: 0px 0px 15px #6f12cb;
+}
+
+
+
+
+
+@media (width <= 1000px) {
+    .ulLink{
+        display: grid;
+        
+    }
+
+}
